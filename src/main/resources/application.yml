@@ -1,0 +1,15 @@
+server:
+  port: 8052
+  servlet:
+    context-path: /developers-api
+  tomcat:
+    max-threads: 400
+eureka:
+  client:
+    service-Url:
+      defaultZone: http://localhost:8761/eureka
+      
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
